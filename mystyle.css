@@ -1,0 +1,133 @@
+/* Base Css */
+.alignleft{
+    float: left;
+    margin-right: 15px;
+
+}
+.alignright{
+    float: right;
+    margin-left: 15px;
+
+}
+.aligncenter{
+    display: block;
+    margin:0 auto 15px;
+
+}
+a:focus{
+    outline: 0 solid;
+}
+img{
+    max-width:100%;
+    height: auto;
+}
+h1,h2,h3,h4,h5,h5{
+    margin:0 0 15px;
+    font-weight: 700;
+}
+html,body{
+    height: 100%;
+}
+a:hover{
+    text-decoration:none;
+}
+input:-webkit-autofill,input:-webkit-autofill:hover,input:-webkit-autofill:focus{
+    -webkit-box-shadow:0 0 0px 1000px white inset !important;
+}
+.section-bg{
+    background-image: url(img/bg.jpg);
+}
+.section-padding {
+    position: relative;
+}
+
+.section-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 60%;
+    background-size: cover;
+}
+
+.section-bg:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    opacity: 0.8;
+    background: #6dd4b5;
+}
+
+.contact-form {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.contact-form {}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contact-form h2 {
+    color: #fff;
+}
+
+input:focus,textarea:focus,button:focus {
+    outline: none;
+}
+
+
+.contact-form input[type=submit] {
+    width: auto;
+    padding: 13px 30px;
+    color: #6dd4b5;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.appointment-text {
+    padding-left: 100px;
+}
+
+.appointment-text {
+    padding-top: 145px;
+}
+
+.appointment-text h3 {
+    padding-bottom: 29px;
+    font-size: 28px;
+    color: #403f3f;
+    font-weight: 400;
+    /* font-weight: bold; */
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    padding-bottom: 6px;
+    font-size: 14px;
+}
+
+i.fa.fa-shield {
+    color: #6dd4b5;
+    padding-right: 10px;
+}
+.appointment-text input[type=submit] {
+    width: auto;
+    padding: 13px 35px;
+    background-color: #6dd4b5;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 5px;
+}

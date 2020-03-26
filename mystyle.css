@@ -34,9 +34,9 @@ a:hover{
 input:-webkit-autofill,input:-webkit-autofill:hover,input:-webkit-autofill:focus{
     -webkit-box-shadow:0 0 0px 1000px white inset !important;
 }
-.section-bg{
+/* .section-bg{
     background-image: url(img/bg.jpg);
-}
+} */
 .section-padding {
     position: relative;
 }
@@ -66,7 +66,7 @@ input:-webkit-autofill,input:-webkit-autofill:hover,input:-webkit-autofill:focus
     padding-bottom: 100px;
 }
 
-.contact-form {}
+
 
 .contact-form input, .contact-form textarea {
     width: 100%;

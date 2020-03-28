@@ -34,100 +34,53 @@ a:hover{
 input:-webkit-autofill,input:-webkit-autofill:hover,input:-webkit-autofill:focus{
     -webkit-box-shadow:0 0 0px 1000px white inset !important;
 }
-/* .section-bg{
-    background-image: url(img/bg.jpg);
-} */
-.section-padding {
+.zigzag-bg-1{
+    background-image: url(img/bg-1.jpg);
+}
+.zigzag-bg-2{
+    background-image: url(img/bg-2.jpg);
+}
+.zigzag-text::after{
+    position: absolute;
+    left:-4900%;
+    top:0;
+    height: 100%;
+    width: 5000%;
+    background-color:rgb(14, 193, 238);
+    content: " ";
+    z-index: -1;
+    transform: skewX(10deg);
+}
+.zigzag-text{
     position: relative;
+    z-index: 2;
+    color:#fff;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
-
-.section-bg {
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 60%;
-    background-size: cover;
-}
-
-.section-bg:after {
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    content: "";
-    opacity: 0.8;
-    background: #6dd4b5;
-}
-
-.contact-form {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-
-
-.contact-form input, .contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    margin-bottom: 10px;
-    color: #333;
-}
-
-.contact-form h2 {
-    color: #fff;
-}
-
-input:focus,textarea:focus,button:focus {
-    outline: none;
-}
-
-
-.contact-form input[type=submit] {
-    width: auto;
-    padding: 13px 30px;
-    color: #6dd4b5;
-    font-weight: 700;
+.zigzag-bg-1 .box-button{
+    display: inline-block;
+    color:#fff;
+    background-color:#011379;
+    padding:10px 15px;
     border-radius: 5px;
+    margin-top:20px;
 }
-
-.appointment-text {
-    padding-left: 100px;
+.zigzag-bg-2 .zigzag-text::after {
+    left: auto;
+    right: -4900%;
+    background-color: #011379;
+    z-index: -1;
 }
-
-.appointment-text {
-    padding-top: 145px;
+.zigzag-bg-2 .zigzag-text{
+    padding-left: 50px;
 }
-
-.appointment-text h3 {
-    padding-bottom: 29px;
-    font-size: 28px;
-    color: #403f3f;
-    font-weight: 400;
-    /* font-weight: bold; */
-}
-
-ul {
-    list-style: none;
-    padding-left: 0;
-}
-
-li {
-    padding-bottom: 6px;
-    font-size: 14px;
-}
-
-i.fa.fa-shield {
-    color: #6dd4b5;
-    padding-right: 10px;
-}
-.appointment-text input[type=submit] {
-    width: auto;
-    padding: 13px 35px;
-    background-color: #6dd4b5;
-    font-weight: 700;
-    color: #fff;
+.zigzag-bg-2 .box-button{
+    display:inline-block;
+    color:#fff;
+    background-color:rgb(14, 193, 238);
+    padding:10px 15px;
     border-radius: 5px;
+    margin-top:20px;
 }
